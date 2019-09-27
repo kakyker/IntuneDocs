@@ -132,7 +132,7 @@ This feature applies to:
 
 ### Settings apply to: All enrollment types 
 
-- **SSO app extension type**: Choose the type of credential SSO app extension. Your options:
+- **SSO app extension type**: Choose the type of credential SSO app extension. Once you save the SSO app extension profile, you will not be able to change the SSO app extension type. Your options:
 
   - **Not configured**: App extensions aren't used. To disable an SSO app extension, switch the SSO app extension type from **Kerberos** or **Credential** to **Not configured**.
   - **Credential**: Use a generic, customizable credential app extension to use SSO. Be sure you know the extension ID and team ID for your organization’s SSO app extension.  

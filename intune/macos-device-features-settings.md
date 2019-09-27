@@ -210,7 +210,7 @@ This feature applies to:
 
   `osascript -e 'id of app "ExampleApp"'`
 
-- **Domain**: Enter the website domain to associate with an app. The domain includes a service type and fully qualified hostname, such as `webcredentials:www.contoso.com`.
+- **Domain**: Enter the website domain to associate with an app. The domain includes a service type and fully qualified hostname, such as `webcredentials:www.contoso.com`. You can match all subdomains of a given associated domain by specifying a wildcard with the prefix *. before the beginning of the domain (the period is required). Exact domains have higher priority during lookup than wildcard domains, so patterns from parent domains will only be matched if no match was found at the fully qualified subdomain.
 
   The service type can be:
 
